@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database-compat.js"></script>
+</head>
+<body>
+    
+    <h2>Admin Page</h2>
+    <form id="package-form">
+        <label for="tracking-number">Tracking Number:</label>
+        <input type="text" id="tracking-number" required><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+        <label for="location">Location:</label>
+        <input type="text" id="location" required><br>
+        <label for="status">Status:</label>
+        <input type="text" id="status" required><br>
+        <button type="submit">Add Package</button>
+    </form>
+
+    
+
+    <!-- Display Packages in Table Form -->
+    <h2>Packages</h2>
+    <table id="package-table">
+        <thead>
+            <tr>
+                <th>Tracking Number</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="package-table-body">
+            <!-- Table body will be populated dynamically -->
+        </tbody>
+    </table>
+
+    <script src="script/admin.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Ocean Star Cargo</title>
+
+    <style>
+        #truck{
+            position: absolute;
+            width: 550px;
+            height: 550px;
+            padding-bottom: 0%;
+            transform: translate(150%, -100%);
+        }
+        #link{
+            transform: translate(690%, -240%);
+            position: absolute;
+            list-style: none;
+            text-decoration: none;
+            
+        }
+        #link ul li{
+            list-style: none;
+            text-decoration: none;
+            font-size: 1rem;
+            padding-bottom: 1rem;
+            color: #000;
+        }
+        #link ul li a{
+            color: #000;
+        }
+        #link ul li a:hover{
+            color: #E47312;
+        }
+        .rectangle{
+            transform: translate(115em, -42em);
+            position: absolute;
+            width: 5em;
+            height: 1em;
+            background-color: #E47312;
+            overflow: hidden;
+        }
+        .rectangle2{
+            transform: translate(124em, -26.2em);
+            position: absolute;
+            width: 5em;
+            height: 1em;
+            background-color: #E47312;
+            overflow: hidden;
+        }
+        .long{
+            position: absolute;
+            transform: translate(119.1em, -41.15em);
+            background-color: #E47312;
+            width: 10em;
+            height: 0.1rem;
+        }
+        .long2{
+            position: absolute;
+            transform: translate(115.1em, -25.37em);
+            background-color: #E47312;
+            width: 10em;
+            height: 0.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-air">
+        <div class="navigation w-nav">
+            <div class="cargo" style="margin-left: -25em; color: #E47312;"><h3>OCEAN STAR INTERNATIONAL CARGO NEPAL</h3> </div>
+            <a href="index.html"  class="brand"><img src="assets/image/Ocean Star Logo.png" width="90" alt="Oceanstarlogo"></a>
+            <nav class="nav-menu w-nav-menu">
+                <a href="index.html" class="nav-link w-inline-block w--current">
+
+                   
+                    <div class="nav-text">
+                        Home
+                    </div>
+                </a>
+                <!-- <a href="about.html" class="nav-link">
+                    <div class="nav-text">
+                        About
+                    </div>
+                </a> -->
+                <a href="services.html" class="nav-link">
+                    <div class="nav-text">
+                        Services
+                    </div>
+                </a>
+                <a href="tracking.html" class="nav-link">
+                    <div class="nav-text">
+                        Tracking
+                    </div>
+                </a>
+                <a href="gallery.html" class="nav-link"> 
+                    <div class="nav-text">
+                        Gallery
+                    </div>
+                </a>
+                <div class="dropdown w-dropdown" id="dropdown-item">
+                    <div class="nav-link drop w-dropdown-toggle">
+                      <div class="icon w-icon-dropdown-toggle"></div>
+                      <div class="navtext">English</div>
+                      <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/sort-down.svg" width="8" alt="" class="arrow-image"/>
+                    </div>
+                    <nav class="dropdown-list w-dropdown-list">
+                      <a href="chinese/cocean.html" class="dropdown-link w-dropdown-link">Chinese</a>
+                      
+                    </nav> 
+                </div>
+                
+                <div class="info-wrapper">
+                    <div class="text-block">
+                        Get Free Quote
+                    </div>
+                </div>
+            </nav>
+            
+                
+        </div>
+        <!-- <div class="features-wrapper">
+            <div class="infos-flex">
+                <div class="info-child">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg" class="info-image" alt="">
+                    <h1 class="phone-text">Phone Number</h1>
+                    <p class="paragraph-white">01-4541889</p>
+                    <p class="paragraph-white">9803454958</p>
+                </div>
+                <div class="info-child">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg" class="info-image" alt="">
+                    <h1 class="phone-text">contact</h1>
+                    <p class="paragraph-white">service@oceanstarcargo.com</p>
+                    <p class="paragraph-white">oceanstarcargo@gmail.com</p>
+                </div>
+                <div class="info-child">
+                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg" class="info-image" alt="">
+                    <h1 class="phone-text">opening times</h1>
+                    <p class="paragraph-white">Sun - Fri &nbsp; 9:00am - 5:00pm, <br> Saturday - Closed</p>
+                    <a href="#" class="navlink for-button">
+                        <div> <a href="" style="text-decoration: none; color: #fff;">Find on Map</a></div>
+                    </a>
+                </div>
+            </div>
+        </div> -->
+        <div class="social-vertical">
+            <a href="https://www.facebook.com/oceanstarcargo/" class="social-icon">
+                <i class="fab fa-facebook-f"></i>            </a>
+            <a href="#" class="social-icon w-inline-block">
+                <i class="fab fa-twitter"></i>            </a>
+            <a href="#" class="social-icon w-inline-block">
+                <i class="fab fa-linkedin-in"></i>            </a>
+            <a href="#" class="social-icon no-bottom">
+                <i class="fab fa-instagram"></i>            </a>
+        </div>
+        <div class="container w-container">
+            <div class="w-row">
+                <div class="w-col w-col-7">
+                    <h1 class="top-title on-banner">OCEAN FREIGHT</h1>
+                    <p class="paragraph-white bigger normal">
+                        Import your goods by Sea Ways<br />
+                      </p>
+                      <div class="top-margin half flex">
+                       
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+        <!-- Partners -->
+
+        
+        <div class="section gray small" id="service">
+            <div class="container w-container">
+                <div class="top-title-wrapper">
+                    <h1 class="top-title">Ocean Freight
+                    <strong>
+                        <br>
+                    </strong>
+                </h1> 
+                    <h1 class="top-title absolute">Ocean Freight</h1>
+                    <a href="#" class="navlink for-button blue _0 w-inline-block aside-navlink">
+                        <div>
+                           
+                        </div>
+                    </a>
+                </div>
+
+                <div class="airfreight">
+
+                    
+
+                    <p> <b>Seamless Global Shipping Solutions for Your Cargo <br>
+
+                        At Ocean Star International Cargo Nepal, we understand the importance of efficient and cost- <br>effective international shipping. Our ocean freight services are designed to provide <br> reliable and comprehensive solutions for businesses of all sizes, ensuring your cargo <br>reaches its destination with precision and care.
+                    <br><br>
+
+
+                    Why Choose Road Freight with Us? <br> <br>
+
+                    <h3>Global Reach:</h3>  
+
+                    ◆ Expand your reach across China to Nepal. Our ocean freight services connect your <br> business to major ports worldwide, offering a reliable and extensive network for <br>international shipments.  <br> 
+
+                    <h3>Economical Shipping:</h3>  
+
+                    ◆ Save on transportation costs with our economical ocean freight solutions. Benefit <br> from competitive rates and flexible options for full container loads (FCL)
+                    <h3>Ports Of Loading In China:</h3>   
+
+                    ◆ QINGDAO
+                    ◆ SHANGHAI
+                    ◆ SHENZHEN
+                    <h3>Pricing</h3>   
+
+                    ◆ For Pricing Please contact on Facebook or Whatsapp for more detail.
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </p>
+
+                    <img src="assets/image/ship.jpg" alt=""  id="truck">
+                </div>
+                <!-- <div class="w-dyn-list">
+                    <div class="w-dyn-items w-row">
+                        <div class="collection-item w-clearfix w-dyn-item w-col-7 w-col-4">
+                            <a href="air.html" class="project-wrapper w-inline-block">
+                                <div class="project-content">
+                                    <img src="assets/image/AIR.png" alt="">
+                                    <div class="project-overlay">
+                                        <div class="project-circle">
+                                            <div>view more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="collection-item w-clearfix w-dyn-item w-col-7 w-col-4">
+                            <a href="road.html" class="project-wrapper w-inline-block">
+                                <div class="project-content">
+                                    <img src="assets/image/ROAD.png" alt="">
+                                    <div class="project-overlay">
+                                        <div class="project-circle">
+                                            <div>view more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="collection-item w-clearfix w-dyn-item w-col-7 w-col-4">
+                            <a href="ocean.html" class="project-wrapper w-inline-block">
+                                <div class="project-content">
+                                    <img src="assets/image/OCEAN.png" alt="">
+                                    <div class="project-overlay">
+                                        <div class="project-circle">
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="collection-item w-clearfix w-dyn-item w-col-7 w-col-4">
+                            <a href="container.html" class="project-wrapper w-inline-block">
+                                <div class="project-content">
+                                    <img src="assets/image/FULL.png" alt="">
+                                    <div class="project-overlay">
+                                        <div class="project-circle">
+                                            <div>view more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="collection-item w-clearfix w-dyn-item w-col-7 w-col-4">
+                            <a href="tt.html" class="project-wrapper w-inline-block">
+                                <div class="project-content">
+                                    <img src="assets/image/DOC.png" alt="">
+                                    <div class="project-overlay">
+                                        <div class="project-circle">
+                                            <div>view more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="collection-item w-clearfix w-dyn-item w-col-7 w-col-4">
+                            <a href="package.html" class="project-wrapper w-inline-block">
+                                <div class="project-content">
+                                    <img src="assets/image/PACK.png" alt="">
+                                    <div class="project-overlay">
+                                        <div class="project-circle">
+                                            <div>view more</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- quote -->
+
+
+        <!-- <div class="section color">
+            <div class="container w-container">
+                <div class="top-title-wrapper center vertical">
+                <h1 class="top-title white">
+                    Efficiency in Motion: Your Cargo, Our Commitment.
+                    <strong>
+                        <br>
+                    </strong>
+                </h1>
+                <p class="paragraph-white bigger">
+                    Get in touch with us and send some basic info for a quick quote.
+                    <br>
+                </p>
+                <div class="top-margin half">
+                    <div class="navlink for-button blue white not-link">
+                        
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Team section -->
+
+
+
+        <!-- <div class="section gray">
+            <div class="container w-container">
+                <div> -->
+                    <!-- <div class="top-title-wrapper">
+                        <h1 class="top-title">professionals
+                        <strong>
+                            <br>
+                        </strong>
+                    </h1> 
+                        <h1 class="top-title absolute">team</h1>
+                        <a href="#about" class="navlink for-button blue _0 w-inline-block aside-navlink">
+                            <div>
+                                about us
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <div class="w-row">
+                            <div class="w-col-7 w-col-3">
+                                <div class="team-wrapper">
+                                    <div class="team-photo">
+                                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h1 class="service-title team">
+                                            Cai 
+                                            <br>
+                                        </h1>
+                                        <p class="job-title">
+                                            Managing Director
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div class="social-vertical horizontal w-clearfix">
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon no-bottom w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="16" alt="">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-col-7 w-col-3">
+                                <div class="team-wrapper">
+                                    <div class="team-photo">
+                                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-2.jpg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h1 class="service-title team">
+                                           Mr. Wayne
+                                            <br>
+                                        </h1>
+                                        <p class="job-title">
+                                            Managing Director
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div class="social-vertical horizontal w-clearfix">
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon no-bottom w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="16" alt="">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="w-col-7 w-col-3">
+                                <div class="team-wrapper">
+                                    <div class="team-photo">
+                                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-3.jpg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h1 class="service-title team">
+                                            Bishow Niraula
+                                            <br>
+                                        </h1>
+                                        <p class="job-title">
+                                            Operation Manager
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div class="social-vertical horizontal w-clearfix">
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon no-bottom w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="16" alt="">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div class="w-col-7 w-col-3">
+                                <div class="team-wrapper">
+                                    <div class="team-photo">
+                                        <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/team-4.jpg" alt="">
+                                    </div>
+                                    <div class="team-content">
+                                        <h1 class="service-title team">
+                                           Nisha Mahat
+                                            <br>
+                                        </h1>
+                                        <p class="job-title">
+                                            Operation Incharge
+                                            <br>
+                                        </p>
+                                    </div>
+                                    <div class="social-vertical horizontal w-clearfix">
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/facebook-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/twitter-logo.png" width="16" alt="">
+                                        </a>
+                                        <a href="#" class="social-icon no-bottom w-inline-block">
+                                            <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/linkedin-logo.png" width="16" alt="">
+                                        </a>
+    
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+
+
+                    <!-- Testimonials -->
+
+
+
+
+                    <!-- <div class="margin-page">
+                          <div class="margin-page">
+                            <div class="row-flex verical w-row">
+                                <div class="w-col-7 w-col-5 w-col-stack">
+                                    <div>
+                                        <div class="padding-right left">
+                                            <div class="top-title-wrapper">
+                                                <h1 class="top-title">
+                                                    Testimonials
+                                                    <strong>
+                                                        <br>
+                                                    </strong>
+                                                </h1>
+                                                <div class="top-title absolute _75-percent">
+                                                    clients
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <p>What people think about us matter see some of the top most companies tells about our services</p>
+                                            </div>
+                                            <div class="top-margin half">
+                                                <a href="#service" class="navlink for-button blue w-inline-block learn-more-btn">
+                                                    <div>our services</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-col w-col-7 w-col-stack">
+                                        <div class="margin-device">
+                                            <div class="w-row">
+                                                <div class="w-col-7 w-col-6">
+                                                    <div class="testimonials-wrapper add-only-0">
+                                                        <div class="testimonials-photo">
+                                                            <div class="text-block-2">"</div>
+                                                        </div>
+                                                        <h4 class="testi-title">Sara William</h4>
+                                                        <div class="job-title">CEO at CGGC</div>
+                                                        <p class="testimonial-paragraph">
+                                                            &quot Duis cursus, mi quis viverra ornare, eros
+                                                            dolor interdum nulla, ut commodo diam libero vitae
+                                                            erat. Aenean faucibus nibh et justo cursus id
+                                                            rutrum lorem imperdiet &quot;
+                                                        </p>
+                                                    </div>
+                                                    <div class="testimonials-wrapper no-margin">
+                                                        <div class="testimonials-photo">
+                                                            <div class="text-block-2">"</div>
+                                                        </div>
+                                                        <h4 class="testi-title">john junior</h4>
+                                                        <div class="job-title">Manager at SCG</div>
+                                                        <p class="testimonial-paragraph">
+                                                            &quot Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Cras varius. Etiam sit amet orci eget eros faucibus tincidunt. Fusce a quam &quot;
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="w-col-7 w-col-6">
+                                                    <div class="testimonials-wrapper move-down">
+                                                        <div class="testimonials-photo">
+                                                            <div class="text-block-2">"</div>
+                                                        </div>
+                                                        <h4 class="testi-title">raven durgan</h4>
+                                                        <div class="job-title">architect at China COMSERVICE</div>
+                                                        <p class="testimonial-paragraph">
+                                                            &quot Aliquam eu nunc. Cras dapibus. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl &quot;
+                                                        </p>
+                                                    </div>
+                                                    <div class="testimonials-wrapper no-margin">
+                                                        <div class="testimonials-photo">
+                                                            <div class="text-block-2">"</div>
+                                                        </div>
+                                                        <h4 class="testi-title">sami typo</h4>
+                                                        <div class="job-title">CEO at China Dock Yard</div>
+                                                        <p class="testimonial-paragraph">
+                                                            &quot Vestibulum fringilla pede sit amet augue. Morbi ac felis. Ut a nisl id ante tempus hendrerit &quot;
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+        <!-- news section -->
+
+
+
+        <div class="section">
+            <div class="container w-container">
+                <div class="top-title-wrapper">
+                    <h1 class="top-title">latest Blogs
+                    <strong>
+                        <br>
+                    </strong>
+                </h1> 
+                    <h1 class="top-title absolute">blog</h1>
+                    <a href="#" class="navlink for-button blue _0 w-inline-block aside-navlink">
+                        <div>
+                            view blog
+                        </div>
+                    </a>
+                </div>
+            <div>
+                <div class="w-dyn-list">
+                    <div class="w-dyn-items w-row">
+                        <div class="w-dyn-item w-col-7 w-col-4">
+                            <a href="#" class="blog-wrapper w-inline-block">
+                                <div class="blog-image">
+                                    <div class="meta-tag">
+                                        <div class="meta-number">
+                                            <div>17</div>
+                                        </div>
+                                        <div class="meta-month">
+                                            <div>oct</div>
+                                        </div>
+                                    </div>
+                                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-1.jpg" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <h1 class="top-title smaller-white blog">
+                                        blogpost 1
+                                    </h1>
+                                    <p class="paragraph-white"> 
+                                        Service and providing potential clients and customers
+                                        with testimonials is one of the best ways to market.
+                                    </p>
+                                    <div class="navlink for-button blue white not-link">
+                                        <div>read more</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-dyn-item w-col-7 w-col-4">
+                            <a href="#" class="blog-wrapper w-inline-block">
+                                <div class="blog-image">
+                                    <div class="meta-tag">
+                                        <div class="meta-number">
+                                            <div>11</div>
+                                        </div>
+                                        <div class="meta-month">
+                                            <div>dec</div>
+                                        </div>
+                                    </div>
+                                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-2.jpg" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <h1 class="top-title smaller-white blog">
+                                        blogpost 2
+                                    </h1>
+                                    <p class="paragraph-white"> 
+                                        Service and providing potential clients and customers
+                                        with testimonials is one of the best ways to market.
+                                    </p>
+                                    <div class="navlink for-button blue white not-link">
+                                        <div>read more</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="w-dyn-item w-col-7 w-col-4">
+                            <a href="#" class="blog-wrapper w-inline-block">
+                                <div class="blog-image">
+                                    <div class="meta-tag">
+                                        <div class="meta-number">
+                                            <div>27</div>
+                                        </div>
+                                        <div class="meta-month">
+                                            <div>oct</div>
+                                        </div>
+                                    </div>
+                                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/port-3.jpg" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <h1 class="top-title smaller-white blog">
+                                        blogpost 3
+                                    </h1>
+                                    <p class="paragraph-white"> 
+                                        Service and providing potential clients and customers
+                                        with testimonials is one of the best ways to market.
+                                    </p>
+                                    <div class="navlink for-button blue white not-link">
+                                        <div>read more</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            </div>
+        </div>
+        <!-- <div class="long"></div>
+        <div class="rectangle">
+        </div>
+        
+        <div class="link" id="link">
+            <ul>
+                <li>
+                    <a href="air.html">Air Freight</a>
+                </li>
+                <li>
+                    <a href="road.html">Road Freight</a>
+                </li>
+                <li>
+                    <a href="ocean.html">Ocean Freight</a>
+                </li>
+                <li>
+                    <a href="container.html">Full container loading Freight</a>
+                </li>
+                <li>
+                    <a href="tt.html">TT/LC Documentation</a>
+                </li>
+                <li>
+                    <a href="package.html">Safe Packaging</a>
+                </li>
+            </ul>
+        </div>
+        <div class="rectangle2"></div>
+        <div class="long2"></div> -->
+
+        <!-- footer -->
+
+
+        <div class="section logo">
+            <div class="algin-center">
+                <h1 class="top-title smaller-white no-width">
+                    trusted by top companies
+                    <strong>
+                        <br>
+                    </strong>
+                </h1>
+            </div>
+            <div class="logo-flex">
+                <a href="#" class="tab-logo logo-6 w-inline-block"></a>
+                <a href="#" class="tab-logo logo-5 w-inline-block"></a>
+                <a href="#" class="tab-logo logo-4 w-inline-block"></a>
+                <a href="#" class="tab-logo logo-3 w-inline-block"></a>
+                <a href="#" class="tab-logo logo-2 w-inline-block"></a>
+                <a href="#" class="tab-logo logo-1 w-inline-block"></a>
+                <h1 class="top-title smaller-white none-mobile">
+                    trusted by top companies
+                    <strong>
+                        <br>
+                    </strong>
+                </h1>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container w-container">
+                <div class="w-row">
+                    <div class="w-col-7 w-col-4">
+                        <div class="footer-column">
+                            <div class="with-line">
+                                <h1 class="top-title smaller-white in-footer">
+                                     about Ocean Star Cargo
+                                     <strong>
+                                         <br>
+                                     </strong>
+                                </h1>
+                                <div class="line"></div>
+                            </div>
+                            <p class="paragraph-white _100">
+                                Ocean Star Provides full-service third-party logistics, which offers international freight solutions for businesses large and small. Specializing in land freight and containerized sea freight imports from China to Nepal, we are part of an advanced agency network in the main ports of China and established our facilities for land cargo.
+                                <strong>
+                                    <br>
+                                </strong>
+                            </p>
+                            <div class="navlink for-button blue white not-link">
+                                <div>find on map</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-col-7 w-col-4">
+                        <div class="footer-column">
+                            <div class="with-line">
+                                <h1 class="top-title smaller-white in-footer">
+                                     services
+                                     <strong>
+                                         <br>
+                                     </strong>
+                                </h1>
+                                <div class="line"></div>
+                            </div>
+                            <div class="w-dyn-list">
+                                <div class="w-dyn-items">
+                                    <div class="w-dyn-item">
+                                        <div>
+                                            <a href="air.html" class="navlink for-button blue white not-link">
+                                            <div>Air Freight</div></a>
+                                        </div>
+                                        <div>
+                                            <a href="road.html" class="navlink for-button blue white not-link">
+                                            <div>Road Freight</div></a>
+                                        </div>
+                                        <div>
+                                            <a href="ocean.html" class="navlink for-button blue white not-link">
+                                            <div>Ocean Freight</div></a>
+                                        </div>
+                                        <div>
+                                            <a href="tt.html" class="navlink for-button blue white not-link">
+                                            <div>Documentation</div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-col-7 w-col-4">
+                        <div class="footer-column">
+                            <div class="with-line">
+                                <h1 class="top-title smaller-white in-footer">
+                                     contact us
+                                     <strong>
+                                         <br>
+                                     </strong>
+                                </h1>
+                                <div class="line"></div>
+                            </div>
+                            <div>
+                                <div class="info-child horizontal no-center">
+                                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/phone.svg" class="info-image left">
+                                    <div>
+                                        <h1 class="phone-text">
+                                            phone Number
+                                            <br>
+                                        </h1>
+                                        <p class="paragraph-white">
+                                            01-4541889
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info-child horizontal no-center">
+                                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/clock.svg" class="info-image left">
+                                    <div>
+                                        <h1 class="phone-text">
+                                            opening times
+                                            <br>
+                                        </h1>
+                                        <p class="paragraph-white">
+                                            Sun - Fri 9:00am - 5:00pm,<br>
+                                            Saturday - Closed
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info-child horizontal no-center">
+                                    <img src="https://nuuk-e3eaa.firebaseapp.com/assets/img/mail.svg" class="info-image left">
+                                    <div>
+                                        <h1 class="phone-text">
+                                            contact
+                                            <br>
+                                        </h1>
+                                        <p class="paragraph-white">
+                                            service@oceanstarcargo.com
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-margin">
+                    <div class="row-flex verical reverse w-row">
+                        <div class="w-col-7 w-col-stack">
+                            
+                                
+                            
+                            <a href="index.html" class="brand normal w-nav-brand w--current">
+                                <img src="assets/image/Ocean Star Logo.png" width="90" alt="">
+                                <span style="color: #fff; margin-left: 23em; padding-right: 30em;">© Copyright Ocean Star Cargo Nepal. All Rights Reseved | Developed by:3talks</span>
+                            </a>
+                            
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
